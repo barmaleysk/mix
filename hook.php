@@ -14,8 +14,8 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'example:key';
-$bot_username = 'ecofood_tmn_bot';
+$bot_api_key  = '758626006:AAGgKnowYgvrBx5F_cQPkavMCr6iqE1w-wY';
+$bot_username = 'foodstar_bot';
 
 // Define all IDs of admin users in this array (leave as empty array if not used)
 $admin_users = [
@@ -23,7 +23,7 @@ $admin_users = [
 
 $config = [
 	'admin_group' => -123456789,
-	'base_url' => 'http://example.com/',
+	'base_url' => 'http://torycast.herokuapp.com/',
 	'download_path' => 'Download/'
 ];
 
