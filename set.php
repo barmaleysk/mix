@@ -9,11 +9,11 @@
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Add you bot's API key and name
-$bot_api_key  = 'example:key';
-$bot_username = 'ecofood_tmn_bot';
+$bot_api_key  = '758626006:AAGgKnowYgvrBx5F_cQPkavMCr6iqE1w-wY';
+$bot_username = 'foodstar_bot';
 
 // Define the URL to your hook.php file
-$hook_url     = 'https://example.com/hook.php';
+$hook_url     = 'https://torycast.herokuapp.com/hook.php';
 
 try {
     // Create Telegram API object
